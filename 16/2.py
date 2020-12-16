@@ -1,7 +1,6 @@
 from collections import defaultdict
 import re
 with open("input.txt") as f:
-# with open("test2.txt") as f:
     data = f.read()
 
 rules, my_ticket, other_tickets = data.split("\n\n")
